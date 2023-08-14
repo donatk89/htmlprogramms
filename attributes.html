@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<form action="/action_page.php">
+	<input type="radio" name="tech" value="eng" checked>Engineering
+	<input type="radio" name="tech" value="deg">degree
+	<input type="checkbox" name="sport1" value="ckt" checked>Cricket
+	<input type="checkbox" name="sport1" value="fbl" >football<br><br>
+
+
+	<label for="fname">First name:</label>
+	<input type="text" name="fname" id="fname" value="mash" disabled><br>
+	<label for="sname">Second name:</label>
+	<input type="text" name="sname" id="sname" value="Stack">
+	<input type="submit" value="Submit"><br><br>
+
+
+	<label for="num">Choose a number between 1 to 10</label>
+	<input type="number" name="num" id="num" min="1" max="10">
+	<input type="submit" value="Submit"><br><br>
+
+
+	<label for="phno">enter phone no:</label>
+	<input type="text" name="phno" id="phno" maxlength="10" size="10">
+	<input type="submit" value="Submit"><br><br>
+
+	<label for="country_code">Country code:</label>
+	<input type="text" name="country_code" id="country_code" pattern="[A-Za-z]{3}">
+	<input type="submit" value="Submit"><br>
+
+	<label for="fname">First name:</label>
+	<input type="text" name="fname" id="fname" value="rama" readonly>
+	<label for="sname">Second name:</label>
+	<input type="text" name="sname" id="sname" value="krishna" size="50" autofocus>
+	<input type="submit" value="Submit"><br>
+
+	<label for="username">Username:</label>
+	<input type="text" name="username" id="username" required>
+	<input type="submit" name="Submit"><br>
+
+	<label for="points">Points:</label>
+	<input type="number" name="points" id="points" step="3">
+	<input type="submit" value="Submit"><br>
+
+	<label for="name">name</label>
+	<input type="text" name="name" id="name" placeholder="enter your name">
+	<input type="submit" value="Submit">
+</form>
+</body>
+</html>

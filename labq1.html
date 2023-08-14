@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Lab Question 1</title>
+</head>
+<body>
+<form>
+	<label for="name">Name:</label>
+	<input type="text" name="name" id="name" placeholder="enter your name" maxlength="25" size="25"><br><br>
+	<label for="email">Email:</label>
+	<input type="text" name=" email" id="email" value="test@example.com" autofocus><br><br>
+	<label for="pwd">Password:</label>
+	<input type="password" name="pwd" id="pwd" min="6"><br><br>
+	<label for="cgy">Category:</label>
+	<select name="cgy" id="cgy">
+		<option>Student</option>
+		<option>Employee</option>
+		<option selected>Freelancer</option>
+	</select><br><br>
+	<label for="edate">Event Date</label>
+	<input type="date" name="edate" id="edate"><br><br>
+
+	<label for="topt">ticket options:</label>
+	<input type="radio" name="t" value="1ticket">1 ticket
+	<input type="radio" name="t" value="2ticket" checked>2 ticket
+	<input type="radio" name="t" value="3ticket">3 ticket<br><br>
+
+	<label for="online">Online Payment</label>
+	<input type="checkbox" name="online" id="online"><br><br>
+
+	<label for="note">Notes:</label>
+	<textarea name="note" id="note" placeholder="enter your notes" required></textarea><br><br>
+
+	<button name="submit" id="submit">Submit</button>
+
+
+</form>
+</body>
+</html>
